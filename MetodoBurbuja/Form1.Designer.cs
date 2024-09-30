@@ -32,6 +32,7 @@
             this.TbNumber = new System.Windows.Forms.TextBox();
             this.BtnAdd = new System.Windows.Forms.Button();
             this.LbNumeros = new System.Windows.Forms.ListBox();
+            this.BtnSort = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -52,7 +53,7 @@
             // 
             // BtnAdd
             // 
-            this.BtnAdd.Location = new System.Drawing.Point(359, 25);
+            this.BtnAdd.Location = new System.Drawing.Point(359, 14);
             this.BtnAdd.Name = "BtnAdd";
             this.BtnAdd.Size = new System.Drawing.Size(106, 37);
             this.BtnAdd.TabIndex = 2;
@@ -66,14 +67,25 @@
             this.LbNumeros.ItemHeight = 20;
             this.LbNumeros.Location = new System.Drawing.Point(37, 84);
             this.LbNumeros.Name = "LbNumeros";
-            this.LbNumeros.Size = new System.Drawing.Size(313, 204);
+            this.LbNumeros.Size = new System.Drawing.Size(428, 304);
             this.LbNumeros.TabIndex = 3;
+            // 
+            // BtnSort
+            // 
+            this.BtnSort.Location = new System.Drawing.Point(496, 14);
+            this.BtnSort.Name = "BtnSort";
+            this.BtnSort.Size = new System.Drawing.Size(114, 37);
+            this.BtnSort.TabIndex = 4;
+            this.BtnSort.Text = "Arreglar";
+            this.BtnSort.UseVisualStyleBackColor = true;
+            this.BtnSort.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnSort);
             this.Controls.Add(this.LbNumeros);
             this.Controls.Add(this.BtnAdd);
             this.Controls.Add(this.TbNumber);
@@ -92,6 +104,7 @@
         private System.Windows.Forms.TextBox TbNumber;
         private System.Windows.Forms.Button BtnAdd;
         private System.Windows.Forms.ListBox LbNumeros;
+        private System.Windows.Forms.Button BtnSort;
     }
 }
 

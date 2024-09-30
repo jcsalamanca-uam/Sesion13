@@ -58,5 +58,10 @@ namespace MetodoBurbuja
             bubble.BubbleSort(numbers);
             ShowNumbers();
         }
+
+        private void LbNumeros_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

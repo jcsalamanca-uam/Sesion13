@@ -69,6 +69,7 @@
             this.LbNumeros.Name = "LbNumeros";
             this.LbNumeros.Size = new System.Drawing.Size(428, 304);
             this.LbNumeros.TabIndex = 3;
+            this.LbNumeros.SelectedIndexChanged += new System.EventHandler(this.LbNumeros_SelectedIndexChanged);
             // 
             // BtnSort
             // 
